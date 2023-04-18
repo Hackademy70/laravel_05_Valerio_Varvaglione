@@ -1,0 +1,8 @@
+.masthead {
+    height: 50vh;
+    min-height: 400px;
+    background-image: linear-gradient(to right, transparent, #232125), url('./../views/components/beach-g04ac06a1c_1280.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
