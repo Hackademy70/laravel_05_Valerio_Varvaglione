@@ -20,3 +20,9 @@ Route::get('/', [PublicController::class, 'showHomePage'])->name('home');
 Route::get('/travel/create',[TravelController::class, 'create'])->name('travel.create');
 
 Route::post('/travel/store',[TravelController::class, 'store'])->name('travel.store');
+
+Route::get('/travel/index',[TravelController::class, 'index'])->name('travel.index');
+
+Route::get('/travel/show/{id}',[TravelController::class, 'show'])->name('travels.show');
+
+Route::get('/travel/edit/{travel}',[TravelController::class, 'edit'])->name('travels.edit');

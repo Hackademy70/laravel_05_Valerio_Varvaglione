@@ -1,8 +1,47 @@
-.masthead {
-    height: 50vh;
-    min-height: 400px;
-    background-image: linear-gradient(to right, transparent, #232125), url('./../views/components/beach-g04ac06a1c_1280.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
+    .masthead {
+        height: 100vh;
+        width: 100vw;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url('./../views/components/bg-image.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+        
+        
+      }
+
+    *{
+      font-family: 'Montserrat', sans-serif;
+
+    }
+
+    .img-logo{
+      width: 70px;
+    }
+
+    .nav-color{
+      padding: 0;
+     
+    }
+
+    .navbar-scrolled{
+      background-color: #4b7f78;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+      
+    }
+
+    .navbar{
+      transition: 0.5s;
+    }
+
+    .destination img{
+      transition: 0.5s;
+    }
+
+    .destination a:hover img{
+      transform: scale(1.1);
+    }
+
+   
+
+  
